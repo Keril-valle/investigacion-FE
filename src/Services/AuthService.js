@@ -2,7 +2,7 @@ import axios from 'axios'
 import { jwtDecode } from 'jwt-decode'
 
 export const client = axios.create({
-  baseURL: 'https://localhost:7098',
+  baseURL: 'http://keril-inves.runasp.net/',
 })
 
 export async function login({ email, password }) {
